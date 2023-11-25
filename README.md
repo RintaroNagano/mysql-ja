@@ -9,7 +9,10 @@
 3. 後は以下のコマンドを実行して下さい．
 ```
 cd (このリポジトリ)
+# イメージのビルド
 docker build -t mysql-ja .
+# コンテナの起動
 docker run -d --name mysql-ja --rm -it mysql-ja
+# mysqlコンソールの起動
 docker exec -it mysql-ja bash -c "mysql -proot"
 ```
