@@ -3,6 +3,7 @@
 
 ### 使い方
 授業で配られた.mysqlファイルをこのリポジトリ内に入れてください．
+
 Dockerfile L.17 `COPY ./ddl.sql /docker-entrypoint-initdb.d/` の.`/ddl.sql`を自分が入れたファイル名に変えてください．
 
 後は以下のコマンドを実行して下さい．
